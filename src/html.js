@@ -24,7 +24,7 @@ export default class HTML extends React.Component {
           {this.props.postBodyComponents}
           <footer className="container">
             <hr/>
-            <p>Copyright &copy; 2019, All rights reserved | <a href="https://github.com/enato/parents" tagret="_blank">GitHub source</a></p>
+            <p>Copyright &copy; 2019, All rights reserved | <a href="https://github.com/enato/parents" tagret="_blank">GitHub source</a> | <a href="https://www.enato.edu.gr" tagret="_blank">Ιστότοπος Σχολείου</a></p>
           </footer>
         </body>
       </html>
