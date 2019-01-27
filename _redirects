@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://parents-enato.netlify.com/* https://parents.enato.edu.gr/:splat 301!
+https://parents-enato.netlify.com/* https://parents.enato.edu.gr/:splat 301!
