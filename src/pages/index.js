@@ -26,8 +26,8 @@ export default class IndexPage extends React.Component {
                     <Link className="has-text-primary" to={post.fields.slug}>
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
+                    <span> | </span>
+                    <small><b>{post.frontmatter.date}</b></small>
                   </p>
                   <p>
                     {post.excerpt}
@@ -63,7 +63,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          excerpt(pruneLength: 300)
           id
           fields {
             slug

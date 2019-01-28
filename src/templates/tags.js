@@ -25,7 +25,7 @@ class TagRoute extends React.Component {
           <div className="container content">
             <div className="columns">
               <div
-                className="column is-10 is-offset-1"
+                className="column is-10"
                 style={{ marginBottom: '6rem' }}
               >
                 <h4 className="title is-size-4 is-bold-light">{tagHeader}</h4>
@@ -52,7 +52,7 @@ export const tagPageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      limit: 1000
+      limit: 600
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
