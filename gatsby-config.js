@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Σύλλογος Γονέων και Κηδεμόνων - 9ο Δημ. Σχ. Σερρών',
     description: 'Ο επίσημος ιστότοπος του Συλλόγου Γονέων και Κηδεμόνων του 9ου Δημοτικού Σχολείου Σερρών.',
+    siteUrl: `https://parents.enato.edu.gr`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,6 +14,9 @@ module.exports = {
         path: `${__dirname}/static/img`,
         name: 'uploads',
       },
+    },
+    {
+      resolve: `gatsby-plugin-feed`
     },
     {
       resolve: 'gatsby-source-filesystem',
@@ -38,6 +42,13 @@ module.exports = {
             resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',
+            },
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow"
             },
           },
           {
