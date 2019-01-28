@@ -8,7 +8,6 @@
     "gatsby": "^2.0.98",
     "gatsby-image": "^2.0.28",
     "gatsby-plugin-feed": "^2.0.12",
-    "gatsby-plugin-mailchimp": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git#gatsby-v2",
     "gatsby-plugin-netlify": "^2.0.7",
     "gatsby-plugin-netlify-cms": "^3.0.10",
     "gatsby-plugin-purgecss": "^3.1.0",
