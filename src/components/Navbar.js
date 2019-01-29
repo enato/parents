@@ -51,12 +51,6 @@ const Navbar = class extends React.Component {
         <Link className="navbar-item" to="/about">
           Ο Σύλλογος
         </Link>
-        <Link className="navbar-item" to="/priorities">
-          Προτεραιότητες
-        </Link>
-        <Link className="navbar-item" to="/sponsors">
-          Χορηγοί
-        </Link>
         <Link className="navbar-item" to="/contact">
           Επικοινωνία
         </Link>

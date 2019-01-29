@@ -42,9 +42,8 @@ export default class Index extends React.Component {
         <h1 className="title is-size-3 has-text-weight-bold is-bold-light">Φόρμα επικοινωνίας</h1>
 
         <ul>
-          <li><label className="has-text-weight-bold">Τηλέφωνα:</label> 6372.730.080, 6948.820.166</li>
+          <li><label className="has-text-weight-bold">Τηλέφωνα:</label> 6949.836.700</li>
           <li><label className="has-text-weight-bold">Email:</label> parents@enato.edu.gr</li>
-          <li>Όλα τα email που λαμβάνονται στην παραπάνω διεύθυνση προωθούνται αυτόματα σε όλα τα μέλη του Δ.Σ.</li>
         </ul>
 
         <p className="has-text-weight-bold">
